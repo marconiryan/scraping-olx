@@ -5,6 +5,16 @@ O script pega titulo, preço e link do anuncio, conforme a pesquisa.
 <img src="https://github.com/marconiryan/scraping-olx/blob/main/demo.gif"/>
 
 #
+### Como utilizar
+
+~~~console
+user:~$ python3 -m pip install -r requirements.txt 
+~~~
+~~~console
+user:~$ python3 main.py
+~~~
+
+
 ### Pesquisa
 * A pesquisa pode ser feita em uma pagina especifica ou em todas as páginas encontradas. 
 * O filtro de pesquisa pode ser realizada por estados ou por todo o país.
